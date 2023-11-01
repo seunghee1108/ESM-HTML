@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ESM 예제</title>
+</head>
+<body>
+
+  <h1 id = "add"></h1>
+  <!-- <script type="module" src="main.js"></script> -->
+  <script type="module">
+    import {add, multiply} from '/mathUtils.js';
+    document.getElementById('add').innerHTML = add(3,5);
+  </script>
+</body>
+</html>
